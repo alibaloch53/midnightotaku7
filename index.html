@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MidnightOtaku</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #0b0b0f, #000);
+    color: white;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 25px;
+    font-size: 34px;
+    font-weight: bold;
+    color: red;
+    letter-spacing: 3px;
+    text-shadow: 0 0 12px red;
+}
+
+/* SUBTITLE */
+.subtitle {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+/* GALLERY */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background: #15151c;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255,0,0,0.2);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px red;
+}
+
+/* IMAGE */
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+/* BUTTON */
+.btn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #666;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>MidnightOtaku</header>
+<div class="subtitle">Dark Anime Wallpaper Hub ⚡</div>
+
+<div class="gallery">
+
+    <div class="card">
+        <img src="https://picsum.photos/seed/anime1/400/600">
+        <a class="btn" href="https://picsum.photos/seed/anime1/400/600" download>Download</a>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/seed/anime2/400/600">
+        <a class="btn" href="https://picsum.photos/seed/anime2/400/600" download>Download</a>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/seed/anime3/400/600">
+        <a class="btn" href="https://picsum.photos/seed/anime3/400/600" download>Download</a>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/seed/anime4/400/600">
+        <a class="btn" href="https://picsum.photos/seed/anime4/400/600" download>Download</a>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/seed/anime5/400/600">
+        <a class="btn" href="https://picsum.photos/seed/anime5/400/600" download>Download</a>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/seed/anime6/400/600">
+        <a class="btn" href="https://picsum.photos/seed/anime6/400/600" download>Download</a>
+    </div>
+
+</div>
+
+<footer>© 2026 MidnightOtaku | Built by Ali</footer>
+
+</body>
+</html>
